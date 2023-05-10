@@ -1,0 +1,188 @@
+header{
+    height: 64px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: azure;
+}
+#h1,#orientation{
+    padding-left: 60px;
+    color:lightblack;
+    
+}
+span{
+    color: gray;
+}
+nav{
+    display: inline;
+    float: right;
+    padding-left:  16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    top: 5px;
+}
+#logo{
+    padding-left: 24px;
+    height: 40px;
+    margin-top: 10px;
+}
+.flexitem{
+   margin-left: 60px;
+}
+.banner{
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#banner{
+    background-color: gray;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 60%;
+    padding-bottom: 32px;
+}
+#start{
+    text-align: center;
+    background-color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    
+    
+}
+#first{
+   
+    font-size: 45px;
+}
+#h2{
+    
+    font-size: 25px;
+}
+
+.section,.section-2 {
+    display: flex;
+  }
+
+    .first-div {
+      flex: 1;
+      padding-left: 24px;
+  }
+
+  .second-div {
+  flex: 1;
+  padding-left: 24px;
+
+  justify-content: center;
+  }
+  .sub-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .sub-div img {
+    margin-right: 10px;
+  }
+
+  .text {
+     white-space: nowrap;
+  }
+  .sub-div-3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    background-color: gray;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  h1{
+    padding-top: 32px;
+    padding-left: 24px;
+  }
+  p{
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+  
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding: 32px;
+    flex-basis: 100%;
+}
+section{
+    padding-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    background-color: azure;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.row {
+    
+    display: flex;
+    justify-content: center;
+  }
+  #courses{
+    font-size: 30px;
+   
+  }
+  #h2{
+    padding-top: 16px;
+   
+  }
+  #video{
+    width: 60%;
+    padding: 24px;
+  }
+
+
+  .section {
+    display: flex;
+    padding-bottom: 32px;
+  }
+  .first-div-2{
+    flex: 1;
+    padding-left: 24px;
+}
+.second-div-2 {
+    flex: 1;
+    padding-left: 24px;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    }
+    .sub-div-4{
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        background-color: gray;
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      .sub-div-2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+      #Reimagine{
+        padding-top: 24px;
+        padding-bottom: 8px;
+        padding-left: 24px;
+      }
+      footer{
+        padding-top: 16px;
+        padding-left: 24px;
+      }
