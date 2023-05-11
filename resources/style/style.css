@@ -187,3 +187,15 @@ section{
         padding-top: 16px;
         padding-left: 24px;
       }
+
+      /* Media query */
+      @media (max-width: 768px) {
+        .row img {
+          width: 50%; /* Display two images per row */
+        }
+      }
+      @media (max-width: 480px) {
+        .row img {
+          width: 100%; /* Display one image per row */
+        }
+      }
